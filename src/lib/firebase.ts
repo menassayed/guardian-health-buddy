@@ -8,14 +8,13 @@ import { getAnalytics } from 'firebase/analytics';
 
 // Your existing Firebase config
 const firebaseConfig = {
-  // Add your existing Firebase config here
-  apiKey: "your-api-key",
-  authDomain: "your-auth-domain",
-  projectId: "your-project-id",
-  storageBucket: "your-storage-bucket",
-  messagingSenderId: "your-messaging-sender-id",
-  appId: "your-app-id",
-  measurementId: "your-measurement-id"
+  apiKey: "AIzaSyClO4_ws1wWVZyMb8o1OofNEOADBlgXqq4",
+  authDomain: "copd-monitor.firebaseapp.com",
+  projectId: "copd-monitor",
+  storageBucket: "copd-monitor.firebasestorage.app",
+  messagingSenderId: "806831690568",
+  appId: "1:806831690568:web:e5b665347e5c7218d4d97d",
+  measurementId: "G-0508D7FY89"
 };
 
 const app = initializeApp(firebaseConfig);
